@@ -3,10 +3,12 @@ body {
     color: white;
 }
 form {
-    width: 290px;
+    width: 400px;
     margin-left: auto;
     margin-right: auto;
     padding: 100px 40px 40px 40px;
+    font-size: larger;
+    color: #C2B49B;
 }
 
 /* input, select, textarea {
@@ -15,12 +17,15 @@ form {
 
 button {
     width: 45%;
-    margin-left: 4%;
+    margin: 8px;
+    height: 30px;
     border-radius: 20px;
+    background-color: greenyellow;
 }
 
-select, textarea, .email input, .tel input, .alter input, .vorname input, .glücklich input, .nachname input {
+select, textarea, .password input, .email input, .tel input, .alter input, .vorname input, .glücklich input, .nachname input {
     width: 100%;
+    height: 30px;
 }
 h1 {
     text-align: center;
@@ -28,4 +33,7 @@ h1 {
     background-color: chocolate;
     padding: 30px;
     font-size: xx-large;
+}
+textarea {
+    height: 100px;
 }
