@@ -1,0 +1,31 @@
+body {
+    background-color: #2E3D33;
+    color: white;
+}
+form {
+    width: 290px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 100px 40px 40px 40px;
+}
+
+/* input, select, textarea {
+    width: 100%;
+} */
+
+button {
+    width: 45%;
+    margin-left: 4%;
+    border-radius: 20px;
+}
+
+select, textarea, .email input, .tel input, .alter input, .vorname input, .glücklich input, .nachname input {
+    width: 100%;
+}
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    background-color: chocolate;
+    padding: 30px;
+    font-size: xx-large;
+}

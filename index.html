@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Formular</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Formelemente</h1>
+        <form action="https://formspree.io/f/xpzbknar" method="post">
+            <div class="vorname">
+                <label>
+                    Vorname:
+                    <input name="Vorname" type="text" placeholder="Vorname eingeben" required />
+                </label>
+            </div>
+            <br>
+            <div class="nachname">
+                <label for="nachname">Nachname:</label>
+                <input name="Nachname" type="text" placeholder="Nachname eingeben">
+            </div>
+            <br />
+            <div class="alter">
+                <label>
+                    Alter:
+                    <input name="Alter" type="number" placeholder="Alter eingeben" required />
+                </label>
+            </div>
+            <br>
+            <div class="tel">
+                <label for="tel">Telefon:</label>
+                <input name="tel" type="tel" required>
+            </div>
+            <br />
+            <div class="glücklich">
+                <label for="glücklich">Wie zufrieden waren Sie letztes Jahr?</label>
+                <input name="glücklich" type="range">
+            </div>
+            <br>
+            <div class="email">
+                <label for="email">Email:</label>
+                <input name="email" type="email" required>
+            </div>
+            <br>
+            <div class="farbe">
+                <label for="Farbe">Deine Lieblingsfarbe:</label>
+                <br>
+                <input name="Rot" type="radio">Rot
+                <input name="Grün" type="radio">Grün
+                <input name="Gelb" type="radio">Gelb
+                <input name="Blau" type="radio">Blau
+                <input name="Orange" type="radio">Orange
+                
+            </div>
+            <br>
+            <div class="nachricht">
+                <label>
+                    Deine Nachricht:
+                    <textarea name="Nachricht" placeholder="An uns" required></textarea>
+                </label>
+            </div>
+            <br />
+            <div class="tier">
+                <label>
+                    Dein Lieblingstier:
+                    <select name="Lieblingstier" required>
+                        <option value="Katze">Katze</option>
+                        <option value="Hund">Hund</option>
+                        <option value="Tiger">Tiger</option>
+                        <option value="Bär">Bär</option>
+                    </select>
+                </label>
+            </div>
+            <br />
+            <div class="button">
+                <button type="submit">Absenden</button>
+                <button type="reset">Resetten</button>
+            </div>
+        </form>
+    </body>
+</html>
