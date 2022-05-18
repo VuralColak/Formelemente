@@ -20,7 +20,11 @@ button {
     margin: 8px;
     height: 30px;
     border-radius: 20px;
-    background-color: greenyellow;
+    background-color: #AEBEA1;
+}
+
+button:nth-child(2) {
+    background-color: #D5B741;
 }
 
 select, textarea, .password input, .email input, .tel input, .alter input, .vorname input, .glücklich input, .nachname input {
